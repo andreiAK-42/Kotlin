@@ -67,11 +67,11 @@ fun missionThree() {
         val userIntNumber = userStringInputNumber?.toInt()
 
         if (userIntNumber!! < randomNumber) {
-            println("Число меньше чем у компьютера, попробоуйте ещё")
+            println("Мало")
         } else if (userIntNumber > randomNumber) {
-            println("Число больше чем у компьютера, попробоуйте ещё")
+            println("Много")
         } else {
-            println("Верное число")
+            println("Угадал")
             break
         }
     }
